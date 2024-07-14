@@ -1,4 +1,5 @@
 package com.loginregistration.loginregistration.EmployeeController;
+import com.loginregistration.loginregistration.Dto.EmployeeDTO;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
