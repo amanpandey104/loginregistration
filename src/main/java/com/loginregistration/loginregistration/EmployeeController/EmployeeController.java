@@ -21,10 +21,11 @@ public class EmployeeController {
         String id = employeeService.addEmployee(emplyeeDTO);
         return id;
     }
-
+    /* 
     @PostMapping("/login")
     public ResponseEntity<?> loginEmployee(@RequestBody LoginDTO loginDTO) {
         LoginResponse loginResponse = employeeService.loginEmployee(loginDTO);
         return ResponseEntity.ok(loginResponse);
     }
+    */
 }
