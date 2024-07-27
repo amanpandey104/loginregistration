@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 @CrossOrigin //To connect frontend with backend
 @RequestMapping("api/v1/employee")
 public class EmployeeController {
+    
     @Autowired
     private EmployeeService employeeService;
 
